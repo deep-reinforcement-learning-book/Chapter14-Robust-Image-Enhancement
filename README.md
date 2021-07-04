@@ -15,3 +15,16 @@ Example of image enhancement with Proximal Policy Optimization (PPO) algorithm, 
 3. Resize images so that  the maximal side consists of 512 pixels.
 4. Split dataset into training and validation, and generate `train_pairs` and `valid_pairs` files where each line consists of `{raw_image_path}\t{retouched_image_path}`.
 5. Run `python train.py --mode=train` with specific args.
+
+## Citing
+
+```
+@book{deepRL-2020,
+ title={Deep Reinforcement Learning: Fundamentals, Research, and Applications},
+ editor={Hao Dong, Zihan Ding, Shanghang Zhang},
+ author={Hao Dong, Zihan Ding, Shanghang Zhang, Hang Yuan, Hongming Zhang, Jingqing Zhang, Yanhua Huang, Tianyang Yu, Huaqing Zhang, Ruitong Huang},
+ publisher={Springer Nature},
+ note={\url{http://www.deepreinforcementlearningbook.org}},
+ year={2020}
+}
+```
